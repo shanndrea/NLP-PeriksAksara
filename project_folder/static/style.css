@@ -10,15 +10,15 @@ body {
     justify-content: center;
     height: 100vh;
     background-image: url('img/bg.jpg');
-    background-repeat: no-repeat; /* Tidak mengulang gambar */
-    background-position: center center; /* Posisi gambar di tengah-tengah */
-    background-size: cover; /* Gambar ditutupi seluruhnya */
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover; 
 }
 
 .topwrap {
     position: absolute;
     margin-bottom: 70vh;
-    z-index: 2; /* Menempatkan di atas elemen lain */
+    z-index: 2; 
 }
 
 .mid {
@@ -61,6 +61,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 button:hover {
@@ -70,6 +71,7 @@ button:hover {
 p {
     margin: 5px 0;
     text-align: center;
+    width: 700px;
 }
 
 
